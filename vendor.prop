@@ -102,7 +102,7 @@ vendor.display.disable_rotator_downscale=1
 # Display - blur
 ro.sf.blurs_are_expensive=1
 ro.surface_flinger.supports_background_blur=1
-debug.sf.latch_unsignaled=1
+debug.sf.latch_unsignaled=0
 debug.sf.disable_backpressure=1
 
 # DRM
