@@ -6,6 +6,9 @@
 
 COMMON_PATH := device/asus/sdm660-common
 
+# APEX image
+DEXPREOPT_GENERATE_APEX_IMAGE := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
