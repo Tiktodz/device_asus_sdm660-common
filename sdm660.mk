@@ -369,7 +369,8 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.recovery.qcom.rc \
     init.target.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    apex_metadata.rc    
 
 # Seccomp
 PRODUCT_COPY_FILES += \
