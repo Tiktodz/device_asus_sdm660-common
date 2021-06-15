@@ -408,7 +408,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.qti
+    android.hardware.thermal@2.0-service.mock
 
 # Trust HAL
 PRODUCT_PACKAGES += \
