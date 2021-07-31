@@ -79,11 +79,6 @@ on early-boot
     chown system system /mnt/vendor/persist/data/pfm/licenses
     chmod 0775 /mnt/vendor/persist/data/pfm/licenses
 
-on post-fs-data
-    # Create apex symlinked dirs
-    mkdir /data/vendor/metadata_apex 0755 root system
-    mkdir /data/vendor/metadata_apex/sessions 0700 root system
-
 on boot
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/type
