@@ -1,2 +1,1 @@
 allow init adsprpcd_file:file mounton;
-allow vendor_init apex_metadata_file:dir create_dir_perms;
