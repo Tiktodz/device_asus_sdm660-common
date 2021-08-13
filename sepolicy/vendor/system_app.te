@@ -9,3 +9,9 @@ allow system_app sysfs_vibrator:dir search;
 allow system_app sysfs_vibrator:file { getattr read write open };
 allow system_app sysfs_leds:dir search;
 allow system_app sysfs_leds:file { open getattr write };
+
+# allow system apps to read battery status
+allow system_app sysfs_battery_supply:dir { search };
+allow system_app sysfs_battery_supply:file { read };
+allow system_app sysfs_battery_supply:file { open };
+allow system_app sysfs_battery_supply:file { getattr };
