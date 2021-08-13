@@ -24,6 +24,9 @@
 /firmware                                                                                         u:object_r:firmware_file:s0
 /bt_firmware                                                                                      u:object_r:bt_firmware_file:s0
 
+# Power HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power\.stats@1\.0-service\.mock                       u:object_r:hal_power_stats_default_exec:s0
+
 # Scripts
 /(vendor|system/vendor)/bin/init\.btmac\.sh                                                       u:object_r:init-btmac-sh_exec:s0
 
