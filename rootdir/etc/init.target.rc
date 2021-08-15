@@ -56,7 +56,7 @@ on init
     chmod 0664 /sys/class/kgsl/kgsl-3d0/idle_timer
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/min_freq
     chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_trigger_count
-        chown 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hist_memory
     chown 0664 /sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/hyst_length
     chmod 0664 /sys/class/devfreq/soc:qcom,gpubw/min_freq
     chown 0664 /sys/class/devfreq/soc:qcom,cpubw/min_freq
