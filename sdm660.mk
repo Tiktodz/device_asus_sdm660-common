@@ -114,9 +114,11 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system
+    libqdMetaData.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.allocator@2.0-impl \
@@ -127,7 +129,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    android.frameworks.displayservice@1.0
+    android.frameworks.displayservice@1.0 \
+    vendor.display.config@2.0 \
+    vendor.display.config@2.0_vendor
 
 # Doze mode
 PRODUCT_PACKAGES += \
@@ -189,7 +193,8 @@ PRODUCT_PACKAGES += \
     libhidltransport \
     libhidltransport.vendor \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    android.hidl.base@1.0.vendor
 
 # HW crypto
 PRODUCT_PACKAGES += \
@@ -473,7 +478,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libaacwrapper \
     libmediaextractorservice \
-    libnl
+    libnl \
+    libstagefright_enc_common
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
