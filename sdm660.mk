@@ -471,10 +471,3 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# QTI-COMMON
-TARGET_COMMON_QTI_COMPONENTS := \
-    av \
-    telephony \
-    vibrator \
-    gps
