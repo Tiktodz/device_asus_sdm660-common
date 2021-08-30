@@ -11,6 +11,6 @@ set_prop(hal_power_default, vendor_power_prop)
 allow hal_power_default sysfs_kgsl:lnk_file rw_file_perms;
 allow hal_power_default sysfs_kgsl:file rw_file_perms;
 allow hal_power_default sysfs_devfreq:lnk_file rw_file_perms;
-allow hal_power_default sysfs_devfreq:dir create_dir_perms;
+allow hal_power_default sysfs_devfreq:dir search;
 allow hal_power_default sysfs_devfreq:file rw_file_perms;
 allow hal_power_default device_latency:chr_file rw_file_perms;
