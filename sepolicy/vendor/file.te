@@ -4,4 +4,16 @@ type proc_tpd_gesture, fs_type, proc_type;
 type sysfs_call_status, sysfs_type, fs_type;
 
 # kcal
-type kcal_dev, sysfs_type, file_type;
+type kcal_dev, sysfs_type, fs_type;
+
+# Torch Brightness Control
+type sysfs_tbrightness, sysfs_type, fs_type;
+
+# Backlight Dimmer
+type sysfs_backlight, sysfs_type, fs_type;
+
+# Microphone Gain
+type sysfs_mgain, sysfs_type, fs_type;
+
+# Headphone Gain
+type sysfs_hgain, sysfs_type, fs_type;
