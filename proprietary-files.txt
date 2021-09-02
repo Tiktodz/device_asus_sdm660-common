@@ -578,9 +578,9 @@ vendor/bin/cnss-daemon
 
 # WiFi Display - from phoenix_sprout 11 RKQ1.201123.002
 system/bin/wfdservice|cb053924304edda5bf4f9e3ddbbb7983e30513e9
-system/etc/init/wfdservice.rc
-system/etc/wfdconfig.xml
-system/etc/wfdconfigsink.xml
+system/etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
+system/etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
+system/etc/wfdconfigsink.xml|5b4a96f251fd83c2eee520d06bea2b5b159fcd36
 -system/framework/WfdCommon.jar|0faa0fdf415b1ecdc92dfe6a52946a3248b7b02b
 system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|2384486622424611b30c977638d9b5281d08912e
 system/lib/libaudioclient.so:system/lib/libwfdaudioclient.so|0e67061ac7d7a74261fdd9ec95780ab567b8388a
@@ -598,7 +598,7 @@ system/lib/libwfddisplayconfig.so|4497aff1d7c8971ee26abab9ad01a7088465ae79
 system/lib/libwfdmminterface.so|43c186cd9a8bd2d6a246edd82c22fb88795b7ff1
 system/lib/libwfdmmsink.so|e49ee6361e888ed9d43c5d1c3d07982f6931c7f6
 system/lib/libwfdmmsrc.so|0d1ea5c02945237abb49b2105e731556dfd9a0e2
-system/lib/libwfdnative.so|e03f6083f1dcab0ec4d1e03319482ba65005a7f9
+system/lib/libwfdnative.so|8fcfb1fed74264bb394eb2e98efd57b4b01016af
 system/lib/libwfdrtsp.so|1983c75c5eef7a5714ed6250a91c53ce4bf243f6
 system/lib/libwfdservice.so|46358c98875c11b48c02fefc735f7d92a9849888
 system/lib/libwfdsm.so|87f680b03a3e9cfdffa094ca08df818388e3ac77
@@ -610,7 +610,7 @@ system/lib/libwfduibcsrcinterface.so|bd2f7d03e7c7ffd5f42305bc5b87a3007fe2671e
 system/lib64/libFileMux.so|9013ca47299ce9ca575fe3924044a576e59c954a
 system/lib64/libOmxMux.so|da82ca706b10f5c97c9cab33afbc93abbca7d3d0
 system/lib64/libwfdclient.so|8612f7068f76c8a51faeae963b95e2e9743c4a46
-system/lib64/libwfdnative.so|61c1297f7ac949cea396b8b0971a1083307f7bb1
+system/lib64/libwfdnative.so|bf9480c064f16088f65b5e65abb420ea651fded4
 system_ext/lib/libmmosal.so|79c2c9c9c9916a9cc445b8238c0f7ce9bf9e6c00
 system_ext/lib/libmmparser_lite.so|6546b02d33157bec3ce80a1355f85c241894b29e
 system_ext/lib64/libmmosal.so|24aa480c4f96b5db5c46bf1fa0d1d90a607f0120
@@ -635,3 +635,7 @@ vendor/lib/libsdm-color.so|05e6eedb8f9656d9097a1c3cee09ceeef1025181
 vendor/lib/libsdmextension.so|ebc3f1aed53d208ccc665a173198adb9e0ed6a79
 vendor/lib64/libsdm-color.so|9c80ac4e059bff1c53814e9f5f71a5fbe38bce40
 vendor/lib64/libsdmextension.so|913503f002aa2afbeca90d429bac4bff4a2266e0
+
+# Perf
+vendor/lib/libqti-perfd-client.so|895057194f38202a421282efa4f18fdf0765268a
+vendor/lib64/libqti-perfd-client.so|2ec33212cde2a20701d4ecdc512e7556870bdd61
