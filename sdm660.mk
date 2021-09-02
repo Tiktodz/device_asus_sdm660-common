@@ -195,8 +195,7 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor \
-    android.hidl.base@1.0.vendor \
-    android.hidl.base@1.0
+    android.hidl.base@1.0.vendor
 
 # HW crypto
 PRODUCT_PACKAGES += \
@@ -327,8 +326,7 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.asus_sdm660-libperfmgr \
-    android.hardware.power.stats@1.0-service.mock \
-    libqti-perfd-client
+    android.hardware.power.stats@1.0-service.mock
 
 # Powerhint
 ifeq ($(EAS_POWERHINT_VARIANT), sdm636)
