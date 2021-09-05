@@ -9,3 +9,5 @@ ro.lmk.log_stats=true
 
 # IORap
 ro.iorapd.enable=true
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
