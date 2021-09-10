@@ -453,9 +453,6 @@ PRODUCT_PACKAGES += \
     libmediaextractorservice \
     libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Zen Parts
 PRODUCT_PACKAGES += \
     ZenParts
