@@ -151,9 +151,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 # SurfaceFlinger
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
-
 # Treble
 BOARD_VNDK_VERSION := current
 
