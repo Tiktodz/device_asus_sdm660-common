@@ -400,9 +400,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mock
@@ -452,6 +449,3 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libmediaextractorservice \
     libnl
-
-PRODUCT_BOOT_JARS += \
-    WfdCommon
