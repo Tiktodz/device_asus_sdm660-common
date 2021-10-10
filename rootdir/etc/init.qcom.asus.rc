@@ -27,6 +27,10 @@
 #
 #
 
+on init
+    # Change permissions for /dev/diag
+    chmod 0666 /dev/diag
+
 on early-boot
      chown system system /dev/input/event3  # stk3xXx-light
      chown system system /dev/input/event4  # stk3xXx-proximity
