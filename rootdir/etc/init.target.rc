@@ -116,11 +116,13 @@ service vendor.per_mgr /system/vendor/bin/pm-service
     user system
     group system
     ioprio rt 4
+    task_profiles ServiceCapacityLow
 
 service vendor.per_proxy /system/vendor/bin/pm-proxy
     class core
     user system
     group system
+    task_profiles ServiceCapacityLow
     disabled
 
 on property:init.svc.vendor.per_mgr=running
@@ -157,6 +159,7 @@ service vendor.cdsprpcd /vendor/bin/cdsprpcd
    class main
    user system
    group system
+   task_profiles ServiceCapacityLow
    disabled
 
 service energy-awareness /system/vendor/bin/energy-awareness
@@ -164,6 +167,7 @@ service energy-awareness /system/vendor/bin/energy-awareness
     user system
     group system
     oneshot
+    task_profiles ServiceCapacityLow
 
 service vendor.pd_mapper /system/vendor/bin/pd-mapper
      class core
@@ -173,6 +177,7 @@ service ppd /system/vendor/bin/mm-pp-dpps
     user system
     group system graphics
     socket pps stream 0660 system system
+    task_profiles ServiceCapacityLow
     disabled
 
 on property:init.svc.surfaceflinger=stopped
@@ -204,3 +209,4 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
      user root
      group system wakelock
+     task_profiles ServiceCapacityLow
