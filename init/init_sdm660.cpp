@@ -128,8 +128,8 @@ void vendor_load_properties()
     property_override("ro.boot.verifiedbootstate", "green");
     property_override("ro.boot.veritymode", "enforcing");
     property_override("ro.boot.vbmeta.device_state", "locked");
-    property_override("ro.build.description", "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys");
-    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
-    property_override("ro.system.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_override("ro.build.description", "raven-user 12 SD1A.210817.036 7805805 release-keys");
+    property_override("ro.build.fingerprint", "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys");
+    property_override("ro.system.build.fingerprint", "google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys");
 
 }
