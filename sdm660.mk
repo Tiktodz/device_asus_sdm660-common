@@ -348,7 +348,7 @@ PRODUCT_PACKAGES += \
 
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
-    RemovePkgs
+    RemovePackages
 
 # Ramdisk
 PRODUCT_PACKAGES += \
