@@ -79,9 +79,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# Camera
+# Prebuilts
 PRODUCT_PACKAGES += \
-    Snap
+    GCam \
+    RetroMusic
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
