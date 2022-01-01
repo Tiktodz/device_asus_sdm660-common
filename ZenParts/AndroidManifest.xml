@@ -74,7 +74,7 @@
 
         <activity
             android:name=".kcal.KCalSettingsActivity"
-            android:exported="true"
+            android:exported="false"
             android:theme="@style/CustomOptionsTheme"
             android:label="@string/advanced_settings_kcal">
 
@@ -160,7 +160,7 @@
         </service>
         <service
             android:name=".FPSInfoService"
-            android:exported="true">
+            android:exported="false">
         </service>
         <service
             android:name=".FPSTileService"
@@ -173,7 +173,7 @@
             </intent-filter>
         </service>
         <service android:name="com.asus.zenparts.SmartChargingService"
-                android:exported="true">
+                android:exported="false">
         </service>
     </application>
 </manifest>
