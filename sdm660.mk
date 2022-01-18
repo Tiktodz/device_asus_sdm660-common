@@ -504,5 +504,5 @@ PRODUCT_PACKAGES += \
     libnl \
     libstagefright_enc_common
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     WfdCommon
