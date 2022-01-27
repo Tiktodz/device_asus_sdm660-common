@@ -111,13 +111,12 @@
         
         <service
             android:name=".FPSInfoService"
-            android:exported="true">
+            android:exported="false">
         </service>
         <service
             android:name=".FPSTileService"
             android:icon="@drawable/ic_fps_info"
             android:label="@string/fps_info_title"
-            android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
