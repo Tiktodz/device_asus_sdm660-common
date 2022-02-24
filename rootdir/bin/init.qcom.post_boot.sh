@@ -5965,6 +5965,6 @@ real_path=${misc_link##*>}
 setprop persist.vendor.mmi.misc_dev_path $real_path
 
 # Workaround for TWRP splash stuck issue with android12
-   rm -rf data/system/storage.xml
-   touch data/system/storage.xml
-   chattr +I data/system/storage.xml
+rm -rf /data/system/storage.xml
+touch /data/system/storage.xml
+chattr +i /data/system/storage.xml
