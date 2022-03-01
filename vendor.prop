@@ -69,10 +69,6 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 # DRM
 drm.service.enabled=true
 
-# Fling Velocity
-ro.min.fling_velocity=160
-ro.max.fling_velocity=20000
-
 # FM
 vendor.hw.fm.init=0
 vendor.fm.a2dp.conc.disabled=false
