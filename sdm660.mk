@@ -436,6 +436,9 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mock
@@ -490,6 +493,9 @@ PRODUCT_PACKAGES += \
     libmediaextractorservice \
     libnl \
     libstagefright_enc_common
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Zen Parts
 PRODUCT_PACKAGES += \
