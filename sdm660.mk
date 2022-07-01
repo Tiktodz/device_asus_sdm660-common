@@ -401,8 +401,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    apex_metadata.rc \
-    init.performance_level.rc
+    apex_metadata.rc    
 
 # Seccomp
 PRODUCT_COPY_FILES += \
