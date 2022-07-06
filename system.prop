@@ -93,3 +93,6 @@ persist.timed.enable=true
 # WiFi Display
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
+
+# Priv-app permissions
+ro.control_privapp_permissions=log
